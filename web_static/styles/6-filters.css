@@ -58,6 +58,10 @@
     position: absolute;
 }
 
+.amenities .popover {
+    margin-left: -5px;
+}
+
 .city {
     padding-left: 10%;
     position: relative;

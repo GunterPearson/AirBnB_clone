@@ -44,3 +44,27 @@
 .locations {
     border-right: 1px solid #DDDDDD;
 }
+
+.popover {
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    border-top: none;
+    width: 13.9%;
+    margin-top: 0;
+    height: 30%;
+    border-radius: 4px;
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+
+.city {
+    padding-left: 10%;
+    position: relative;
+    padding-top: 8px;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
